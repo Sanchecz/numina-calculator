@@ -26,12 +26,14 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+      - name: Set up Android SDK tools
+        uses: android-actions/setup-android@v3
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v6
         with:
           cache-provider: basic
       - name: Install Android SDK
-        run: sdkmanager "platform-tools" "platforms;android-37.0" "build-tools;36.0.0"
+        run: sdkmanager "platform-tools" "platforms;android-37" "build-tools;36.0.0"
       - name: Run release gate
         run: ./gradlew clean testDebugUnitTest lintDebug lintRelease assembleDebugAndroidTest bundleRelease --no-daemon
       - name: Upload unsigned release artifacts and mappings
@@ -62,12 +64,14 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+      - name: Set up Android SDK tools
+        uses: android-actions/setup-android@v3
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v6
         with:
           cache-provider: basic
       - name: Install Android SDK
-        run: sdkmanager "platform-tools" "platforms;android-37.0" "build-tools;36.0.0"
+        run: sdkmanager "platform-tools" "platforms;android-37" "build-tools;36.0.0"
       - name: Enable KVM
         run: |
           if [[ -e /dev/kvm ]]; then
