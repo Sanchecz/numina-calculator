@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#101117</color>
+    <color name="surface">#191A23</color>
+    <color name="surface_function">#2C2D3A</color>
+    <color name="surface_operator">#3C2C23</color>
+    <color name="primary">#A9A5FF</color>
+    <color name="on_primary">#17152F</color>
+    <color name="text_primary">#F3F1FA</color>
+    <color name="text_secondary">#AAAAB7</color>
+    <color name="operator_text">#FFB77F</color>
+    <color name="divider">#343541</color>
+    <color name="key_ripple">#44C2BFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="icon_background">#5B55E7</color>
+</resources>

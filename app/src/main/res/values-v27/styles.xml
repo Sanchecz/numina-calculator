@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Numina" parent="Theme.Numina.LightBase">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.Numina.Light" parent="Theme.Numina.LightBase">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.Numina.Dark" parent="Theme.Numina.DarkBase">
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

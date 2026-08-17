@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="calculator_root" type="id" />
+    <item name="expression_text" type="id" />
+    <item name="result_text" type="id" />
+    <item name="scientific_panel" type="id" />
+    <item name="key_equals" type="id" />
+    <item name="key_clear" type="id" />
+    <item name="key_backspace" type="id" />
+    <item name="history_button" type="id" />
+    <item name="settings_button" type="id" />
+</resources>

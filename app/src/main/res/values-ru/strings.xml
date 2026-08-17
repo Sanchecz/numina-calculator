@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор Numina</string>
+    <string name="app_title">Numina</string>
+    <string name="app_subtitle">Умный офлайн-калькулятор</string>
+    <string name="brand_mark">N</string>
+    <string name="result_label">Результат</string>
+    <string name="degrees_short">ГРАД</string>
+    <string name="radians_short">РАД</string>
+    <string name="history">История</string>
+    <string name="settings">Настройки</string>
+    <string name="memory_value">M: %1$s</string>
+    <string name="memory_empty">Память пуста</string>
+    <string name="history_empty">Вычислений пока нет. Завершённые выражения появятся здесь.</string>
+    <string name="history_clear">Очистить историю</string>
+    <string name="history_entry_calculation">%1$s\n= %2$s</string>
+    <string name="history_entry_time">Вычислено %1$s</string>
+    <string name="close">Закрыть</string>
+    <string name="apply">Применить</string>
+    <string name="cancel">Отмена</string>
+    <string name="copied">Результат скопирован</string>
+    <string name="haptic_feedback">Виброотклик</string>
+    <string name="theme">Оформление</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлое</string>
+    <string name="theme_dark">Тёмное</string>
+    <string name="memory_cleared">Память очищена</string>
+    <string name="memory_stored">Сохранено в памяти: %1$s</string>
+    <string name="error_empty">Введите выражение</string>
+    <string name="error_syntax">Проверьте выражение</string>
+    <string name="error_division_by_zero">Деление на ноль невозможно</string>
+    <string name="error_domain">Операция не определена</string>
+    <string name="error_overflow">Результат слишком велик</string>
+    <string name="error_too_complex">Выражение слишком сложное</string>
+    <string name="cd_history">Открыть историю вычислений</string>
+    <string name="cd_settings">Открыть настройки</string>
+    <string name="cd_scientific">Показать или скрыть научные функции</string>
+    <string name="cd_angle_mode">Переключить единицу угла, сейчас %1$s</string>
+    <string name="cd_expression">Текущее выражение: %1$s</string>
+    <string name="cd_result">Текущий результат: %1$s. Удерживайте, чтобы скопировать.</string>
+    <string name="cd_key">Клавиша калькулятора %1$s</string>
+    <string name="cd_clear">Очистить выражение</string>
+    <string name="cd_backspace">Удалить последний символ. Удерживайте, чтобы очистить всё.</string>
+    <string name="cd_equals">Вычислить результат</string>
+    <string name="cd_memory_clear">Очистить память калькулятора</string>
+    <string name="cd_memory_recall">Вставить число из памяти калькулятора</string>
+    <string name="cd_memory_add">Добавить текущий результат в память</string>
+    <string name="cd_memory_subtract">Вычесть текущий результат из памяти</string>
+</resources>

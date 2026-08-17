@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Numina Calculator</string>
+    <string name="app_title">Numina</string>
+    <string name="app_subtitle">Smart offline calculator</string>
+    <string name="brand_mark">N</string>
+    <string name="result_label">Result</string>
+    <string name="degrees_short">DEG</string>
+    <string name="radians_short">RAD</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="memory_value">M: %1$s</string>
+    <string name="memory_empty">Memory is empty</string>
+    <string name="history_empty">No calculations yet. Completed expressions appear here.</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_entry_calculation">%1$s\n= %2$s</string>
+    <string name="history_entry_time">Calculated %1$s</string>
+    <string name="close">Close</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="copied">Result copied</string>
+    <string name="haptic_feedback">Haptic feedback</string>
+    <string name="theme">Appearance</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="memory_cleared">Memory cleared</string>
+    <string name="memory_stored">Stored in memory: %1$s</string>
+    <string name="error_empty">Enter an expression</string>
+    <string name="error_syntax">Check the expression</string>
+    <string name="error_division_by_zero">Cannot divide by zero</string>
+    <string name="error_domain">This operation is not defined</string>
+    <string name="error_overflow">The result is too large</string>
+    <string name="error_too_complex">The expression is too complex</string>
+    <string name="cd_history">Open calculation history</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_scientific">Show or hide scientific functions</string>
+    <string name="cd_angle_mode">Switch angle unit, currently %1$s</string>
+    <string name="cd_expression">Current expression: %1$s</string>
+    <string name="cd_result">Current result: %1$s. Long press to copy.</string>
+    <string name="cd_key">Calculator key %1$s</string>
+    <string name="cd_clear">Clear expression</string>
+    <string name="cd_backspace">Delete last character. Long press to clear.</string>
+    <string name="cd_equals">Calculate result</string>
+    <string name="cd_memory_clear">Clear calculator memory</string>
+    <string name="cd_memory_recall">Recall calculator memory</string>
+    <string name="cd_memory_add">Add current result to memory</string>
+    <string name="cd_memory_subtract">Subtract current result from memory</string>
+</resources>
